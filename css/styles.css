@@ -49,3 +49,25 @@ body {
   font-weight: 700;
   margin-bottom: 5;
 }
+
+/*-----------------------MAIN/SECTIONS-------------------------*/
+.profile-container {
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 60px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-avatar img {
+  width: 150px;
+}
+
+.profile-title {
+  margin: 35px 0 0 0;
+}
+
+.profile-description {
+  margin: 0;
+}
