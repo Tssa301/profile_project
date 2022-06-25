@@ -63,6 +63,7 @@ body {
 
 .profile-avatar img {
   width: 150px;
+  border-radius: 100%;
 }
 
 .profile-title {
@@ -122,4 +123,39 @@ footer {
   width: 32px;
   height: 32px;
   margin: 10px;
+}
+
+/*-----------------------MEDIA QUERY-------------------------*/
+@media (min-width: 576px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 24px;
+  }
+
+  .portfolio-item {
+    width: 280px;
+  }
+
+  .nav-container {
+    display: flex;
+  }
+
+  .nav-main {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .nav-brand {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  .menu-items {
+    font-size: 18px;
+  }
 }
